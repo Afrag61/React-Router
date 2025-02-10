@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <RootLayout />,
     children: [
-      { path: "", element: <HomePage /> },
+      { index: true, element: <HomePage /> },
       { path: "Products", element: <ProductsPage /> },
       { path: "Products/:productId", element: <ProductDetailsPage /> },
     ],
