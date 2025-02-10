@@ -19,7 +19,7 @@ const MainNavigation = () => {
           </li>
           <li>
             <NavLink
-              to="/products"
+              to="products"
               className={({ isActive }) =>
                 isActive ? cssClasses.active : undefined
               }
